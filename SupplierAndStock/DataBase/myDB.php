@@ -91,6 +91,15 @@ class Model{
         return $result;
     }
 
+
+    //Update Supplier Report, 
+    function UpdateSupplierReport($conn,$table,$vaccineType,$supplierCompanyName,$vatNo,$slipNo){
+        $sqlQuery = "UPDATE $table SET VaccineType='$vaccineType', SupplierCompanyName='$supplierCompanyName', VatNo='$vatNo' WHERE SlipNo='$slipNo'";
+        
+        $result = $conn->query($sqlQuery);
+        return $result;
+    }
+
     
 }
 ?>
