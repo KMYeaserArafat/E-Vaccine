@@ -100,6 +100,16 @@ class Model{
         return $result;
     }
 
+    // Update Vaccine-Information, 
+    function UpdateVaccineInformation($conn,$table,$vaccineName,$vaccineCode,$manufactureBy,$supplyDate,$productionDate,$expiryDate){
+        $sqlQuery = "UPDATE $table SET VaccineName='$vaccineName', ManufactureBy='$manufactureBy', SupplyDate='$supplyDate', ProductionDate='$productionDate', ExpiryDate='$expiryDate' WHERE VaccineCode='$vaccineCode'";
+
+        $result = $conn->query($sqlQuery);
+        return $result;
+    }
+
+    
+
     
 }
 ?>
