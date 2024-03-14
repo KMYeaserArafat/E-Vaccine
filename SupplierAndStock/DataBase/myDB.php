@@ -108,6 +108,24 @@ class Model{
         return $result;
     }
 
+    // Show SupplierInformation: 
+    function ShowSupplierInformation($conn,$table){
+        $sqlQuery = "SELECT * FROM $table";
+        $result = $conn->query($sqlQuery);
+        return $result;
+    }
+
+    //Update Suppplier-Information:
+    function UpdateSupplierInformation($conn,$table,$id,$supplierName,$nationality,$nidNo,$gender,$birthDate,$permanentAddress,$email,$phoneNo,$userName,$password,
+    $confirmpassword,$supplierComapnyName,$tin,$termsAndConditions){
+        $sqlQuery = "UPDATE $table SET SupplierName='$supplierName', Nationality='$nationality', NidNo='$nidNo', Gender='$gender', BirthDate='$birthDate', PermanentAddress='$permanentAddress',
+        Email='$email', PhoneNo='$phoneNo', UserName='$userName', Password='$password', ConfirmPassword='$confirmpassword', SupplierCompanyName='$supplierComapnyName', Tin='$tin', TermsAndConditions='$termsAndConditions' WHERE ID='$id'";
+
+        $result = $conn->query($sqlQuery);
+        return $result;  
+        
+    }
+
     
 
     
