@@ -23,7 +23,7 @@ function ShowVaccineInformation($result){
         echo("<td>".$row['Quantity']."</td>");
         echo("<td>".$row['rate']."</td>");
         echo("<td>".$row['TotalAmmount']."</td>");
-        echo("<td><a href='http://localhost/WTG/E-Vaccine/SupplierAndStock/controller/DeleteVaccine1.php?rn=$row[VaccineCode]'>Delete</td>");
+        echo("<td><a href='DeleteVaccineInformation2.php?rn=$row[VaccineCode]'>Delete</td>");
         echo("</tr>");
 
     }

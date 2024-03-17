@@ -2,8 +2,6 @@
 
 include '../DataBase/myDB.php';
 
-session_start();
-
 
 if(isset($_REQUEST['submit'])){
     if(empty($_REQUEST['email'])){

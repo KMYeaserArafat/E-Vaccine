@@ -2,12 +2,13 @@
 
 include '../controller/LoginController.php';
 
-//declear session variable, 
-session_start();
-echo $_SESSION['email'];
-
-
-echo("Welcome Admin");
-
-
 ?>
+
+<!DOCTYPE html>
+<html>
+    <html>
+        <body>
+            <h1>Login Successfully, Welcome to our E-Vaccine Website..</h1>
+        </body>
+    </html>
+</html>

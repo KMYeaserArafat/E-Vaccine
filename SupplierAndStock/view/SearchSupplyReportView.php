@@ -23,11 +23,18 @@ include '../controller/SearchSupplyReportController.php';
                     </tr>
 
                     <tr>
-                        <td><?php echo($numOfDataFound); ?></td>
+                        <td><?php echo($searchMessage); ?></td>
                     </tr>
                 </table>
                 <?php 
-                getShowSearchData($result);
+                    if(empty($_REQUEST['search'])){
+                        ShowSupplyReport($showResult);
+                    }elseif($searchMessage=="*Search Data is Required!"){
+                        ShowSupplyReport($showResult);
+                    }
+                    else{
+                        ShowSupplyReport($searchResult);
+                    }
                 ?>
             </fieldset>
         </form>

@@ -1,6 +1,6 @@
 <?php
 
-include '../DataBase/myDB.php';
+include '../controller/DeleteVaccineInformation.php';
 
  $VaccineCode = $_GET['rn'];
  $message = "";
@@ -21,6 +21,6 @@ if($result1==TRUE){
 <html>
     <body>
         <h2><?php echo($message); ?></h2>
-        <h3><a href="http://localhost/WTG/E-Vaccine/SupplierAndStock/view/DeleteVaccineInformation.php">Back</h3>
+        <h3><a href="DeleteVaccineInformation.php">Back</h3>
     </body>
 </html>
