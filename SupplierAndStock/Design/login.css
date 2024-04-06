@@ -1,0 +1,123 @@
+
+body{
+    background-color: #185e2a;
+}
+
+
+#div1{
+    display: flex;
+    background-color: rgba(54, 13, 2, 0.304);
+    text-align: center;
+    padding: 30px;
+}
+
+#logo{
+    margin-top: 2%;
+    margin-left: 40%;
+
+}
+
+#headTitle{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+
+#formPanel{
+   position: relative;
+   border-top: 2px solid yellow;
+   border-bottom: 2px solid red;
+   border-radius: 20px;
+   margin-top: 40px;
+   margin-left: 35%;
+   margin-right: 35%;
+   padding-top: 2%;
+   padding-right: 2%;
+   padding-bottom: 5%;
+   padding-left: 20px;
+   background-color: rgba(92, 63, 25, 0.497);
+}
+
+#loginLogo{
+    margin-left:40%;
+    margin-bottom: 20px;
+}
+
+legend{
+    text-align: center;
+    font-size: 20px;
+    color: #052e0f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.label{
+    font-size: 16px;
+    color: rgb(0, 255, 187);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+input{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    background-color: rgba(222, 184, 135, 0.347);
+    border: 2px solid rgb(167, 157, 13);
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+#inputBox{
+    background-color: rgba(222, 184, 135, 0.347);
+}
+
+#cheackBox{
+    text-align: right;
+    color: rgb(0, 204, 255);
+    font-size: 16px;
+}
+
+input.btnSubmit{
+    position: absolute;
+    font-size: 16px;
+    background-color: #052e0f;
+    color: yellow;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-left:7%;
+}
+
+
+input.btnReset{
+    position: absolute;
+    right: 44%;
+    font-size: 16px;
+    background-color: #e70505;
+    color: yellow;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-right: 0%;
+    margin-left: 10%;
+}
+
+
+#message{
+    color: #e70505;
+    text-align: center;
+    font-size: 16;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+

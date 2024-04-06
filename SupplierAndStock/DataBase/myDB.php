@@ -126,6 +126,14 @@ class Model{
         
     }
 
+    // Show ProfileData, 
+    function showProfileData($conn,$table,$email){
+        $sqlQuery="SELECT * FROM $table WHERE Email LIKE '$email'";
+
+        $result = $conn->query($sqlQuery);
+        return $result;
+    }
+
     
 
     
