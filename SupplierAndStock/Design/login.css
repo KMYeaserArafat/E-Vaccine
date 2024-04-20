@@ -4,8 +4,14 @@
 }
 
 body{
-    background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342));
     margin: 0;
+}
+
+.background{
+   float: left;
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342));
 }
 
 
@@ -29,36 +35,34 @@ body{
     margin-left: 2%;
 }
 
-#formPanel{
-   position: relative;
-   border-top: 2px solid yellow;
-   border-bottom: 2px solid red;
-   /* border-radius: 20px; */
-   border-top-right-radius: 30%;
-   border-bottom-left-radius: 30%;
-   margin-top: 40px;
-   margin-left: 35%;
-   margin-right: 35%;
-   /* padding-top: 2%; */
-   padding: 20px;
-   padding-right: 2%;
-   padding-bottom: 5%;
-   padding-left: 20px;
-   background-color: rgba(92, 63, 25, 0.497);
+.loginDiv{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 70px;
+    background-color: rgba(92, 63, 25, 0.497);;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid red;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    box-shadow: 0 0 30px rgb(45, 1, 1);
 }
 
 #loginLogo{
-    margin-left:40%;
+    margin-left: 30%;
+}
+
+#loginHeadTitle{
+    margin-left: 30%;
+    font-size: 20px;
+    color: rgb(235, 141, 9);
+    text-shadow: 0 0 30px rgb(45, 1, 1);
     margin-bottom: 20px;
 }
 
-legend{
-    text-align: center;
-    font-size: 20px;
-    color: #052e0f;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
+#message{
+    margin-left: 30%;
+    font-size: 16px;
+    color: rgb(223, 3, 6);
 }
 
 .label{
@@ -68,7 +72,7 @@ legend{
     text-align: right;
 }
 
-input{
+input[type="text"],input[type="password"]{
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: snow;
@@ -81,18 +85,7 @@ input{
     margin-bottom: 3px;
 }
 
-#inputBox{
-    background-color: rgba(222, 184, 135, 0.347);
-}
-
-#cheackBox{
-    text-align: right;
-    color: rgb(0, 204, 255);
-    font-size: 16px;
-}
-
-input.btnSubmit{
-    position: absolute;
+.btnSubmit{
     font-size: 16px;
     background-color: #052e0f;
     color: yellow;
@@ -101,29 +94,21 @@ input.btnSubmit{
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    margin-left:7%;
+    margin-left:40%;
 }
 
-
-input.btnReset{
-    position: absolute;
-    right: 44%;
+.btnReset{
     font-size: 16px;
-    background-color: #e70505;
+    background-color: #e6041b;
     color: yellow;
     border-radius: 5px;
     padding-top: 5px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 10px;
-    margin-right: 0%;
-    margin-left: 10%;
 }
 
-
-#message{
-    color: #e70505;
-    text-align: center;
-    font-size: 16;
-    font-family: 'Times New Roman', Times, serif;
+#registrationLink{
+    margin-left: 30px;
+    color: rgb(7, 222, 241);
 }
