@@ -38,11 +38,11 @@ include '../controller/ShowAllSupplierController.php';
             <h1 id="userProfile">Show All Supplier Information</h1>
         <div class="background">
 
-            <form method="POST" action="">
+            <form method="POST" action="" onsubmit="return validationForm()">
                 <label id="searchLabel">Search Supplier By Name : </label>
                 <input type="text" name="searchSupplier" id="searchSupplier">
                 <input type="submit" name="searchSupplierData" value="search">
-                <p class="messageError"><?php echo($searchMessage); ?></p>
+                <p class="messageError"  id="messageError"><?php echo($searchMessage); ?></p>
                 <p id="table"><?php 
                  if(empty($_REQUEST['searchSupplier'])){
                     showInformation($showResult);
@@ -67,7 +67,7 @@ include '../controller/ShowAllSupplierController.php';
 
 
 
-
+        <script src="../js/ShowAllSupplier.js"></script>
     
     </body>
 </html>

@@ -23,7 +23,7 @@ include '../controller/LoginController.php';
             <div class="loginDiv">
                 <img id="loginLogo" src="../Documents/loginLogo.png" alt="Login Logo">
                 <h2 id="loginHeadTitle">LOGIN</h2>
-                <p id="message"><?php echo($message) ?>
+                <p id="message"><?php echo($message) ?></p>
                 <form method="POST" action=""  onsubmit="return validateForm()" >
                 <table>
                     <tr>
