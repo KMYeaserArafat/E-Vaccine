@@ -27,7 +27,7 @@ include '../controller/LoginController.php';
              <!--  Navigation Bar  -->
             <div class="navbar">
                 <a href="ProfileView.php">Profile</a>
-                <a href="#">All Vaccine Supplier</a>
+                <a href="./ShowAllSupplier.php">All Vaccine Supplier</a>
                 <div class="dropdown1">
                     <button class="dropbtn1">Vaccine</button>
                     <div class="dropdown-content1">

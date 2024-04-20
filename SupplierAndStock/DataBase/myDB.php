@@ -134,6 +134,14 @@ class Model{
         return $result;
     }
 
+    // search SupplierData, 
+    function SearchSupplierData($conn,$table,$searchData){
+        $sqlQuery = "SELECT * FROM $table WHERE SupplierName LIKE '$searchData'";
+
+        $result = $conn->query($sqlQuery);
+        return $result;
+    }
+
     
 
     
