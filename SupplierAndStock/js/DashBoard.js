@@ -32,9 +32,8 @@ function updateDate() {
     "Friday",
     "Saturday",
   ];
-  // value -> ID of the html element
+ 
   const IDCollection = ["day", "daynum", "month", "year"];
-  // return value array with number as a index
   const val = [dayWeek[dayName], dayNum, months[month], year];
   for (let i = 0; i < IDCollection.length; i++) {
     document.getElementById(IDCollection[i]).firstChild.nodeValue = val[i];

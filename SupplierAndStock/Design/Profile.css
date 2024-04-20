@@ -1,6 +1,9 @@
+
+
 body{
+    margin: 0;
     background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342));
-    margin:0;
+    position: relative;
 }
 
 
@@ -71,18 +74,68 @@ body{
 
 
 .footerDiv{
-    float: right;
+    /* float: right; */
     background-color: rgb(3, 30, 3);
     padding: 15px;
-    width: 100%;
     margin-top: 300px;
     box-shadow: 40px 5px 50px rgb(3, 30, 3);
 }
 
 #footerPera{
+  position: relative;
   text-align: center;
   color: gold;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 5px 5px 20px burlywood;
 }
+
+
+/* table, td, th {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 100px;
+    font-size: 13px;
+    position: absolute;
+  } */
+  
+.background{
+  position: relative;
+  background-color: rgba(20, 12, 1, 0.545);
+  overflow:auto;
+  padding: 20px;
+  height: 300px;
+}
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.753);
+    position: absolute;
+  }
+
+  
+  th {
+    height: 70px;
+    color: aqua;
+    padding: 2px;
+    text-align: center;
+  }
+
+  td{
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(78, 78, 78, 0.534);
+    color: antiquewhite;
+  }
+
+  a{
+    text-decoration: none;
+    color:red;
+  }
+
+  a:hover{
+    color:#0cf0a0;
+  }

@@ -21,14 +21,20 @@ include '../controller/ProfileController.php';
         </div>
 
 
+
+        <div class="mainBox">
+        </div>
+
+
         <div class="DashBoard">
            <img  class="dashBoardLogo" src="../Documents/DashBoard.png">
            <a class="dashBoardLink" href="../view/DashBoard.php">Back to DashBoard</a>
         </div>
 
-        <div>
+        <!-- <div class="background"> -->
             <img class="userProfilePhoto" src="../Documents/userProfile.png">
             <h1 id="userProfile">User Profile</h1>
+        <div class="background">
             <p id="table"><?php echo(showInformation($showResult)); ?></p>
         </div>
 

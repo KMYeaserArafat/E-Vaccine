@@ -1,8 +1,9 @@
+
 <?php 
 
 session_start();
-
 include '../DataBase/myDB.php';
+
 
 $email = $_SESSION["Email"];
 
