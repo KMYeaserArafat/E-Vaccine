@@ -47,7 +47,7 @@ include '../controller/LoginController.php';
                     <a href="#">Delete Report</a>
                     </div>
                 </div>
-                <a href="./loginPage.php">Logout</a>
+                <a href="./loginPage.php"><?php session_destroy(); ?>Logout</a>
             </div>
 
 

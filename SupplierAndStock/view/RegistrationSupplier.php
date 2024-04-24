@@ -9,13 +9,15 @@ include '../controller/RegistrationController.php'
 <html>
     <head>
         <title>Registration of Supplier</title>
+        <link rel="icon" type="images/x-icon" href="../Documents/supplierRegistration.png" />
+        <link rel="stylesheet" href="../Design/RegistrationSupplier.css">
     </head>
 
     <body>
         <form method="POST" action="" enctype="multipart/form-data">
-            <fieldset>
-                <legend><h1>Registration of Vaccine Supplier</h1></legend>
-                <table>
+            <fieldset id="inputForm">
+                <legend id="inputLegend"><h1>Registration of Vaccine Supplier</h1></legend>
+                <table id="inputTable">
                     <!-- Supplier FullName -->
                     <tr>
                         <td>Supplier Name : </td>
@@ -132,9 +134,9 @@ include '../controller/RegistrationController.php'
                 </table>
             </fieldset>
 
-            <fieldset>
-                <legend>Show All Information : </legend>
-                <table>
+            <fieldset id="outputForm">
+                <legend id="outputLegend">Show All Information : </legend>
+                <table id="outputTable">
                     <tr>
                         <!-- Name -->
                         <td>Name :</td>

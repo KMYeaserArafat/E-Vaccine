@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    padding: 20px;
+}
+
+#inputForm,#outputForm{
+    background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342));
+    padding: 10px;
+}
+
+#inputLegend, #outputLegend{
+    color: rgb(252, 8, 8);
+    text-shadow: 5px 5px 20px rgb(0, 0, 0);
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#inputTable,#outputTable{
+   padding: 20px;
+   /* background-color: aquamarine; */
+   margin: 50px auto;
+}
+
+td{
+    color: rgb(5, 60, 93);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+input[type="text"], input[type="password"],input[type="date"],input[type="radio"],textarea,select,option{
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(60, 60, 60);
+    background-color:rgb(129, 129, 129); 
+    text-align: center;
+    font-size: 17px;
+    color:antiquewhite
+}
+
+input[type="submit"],input[type="button"]{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(60, 60, 60);
+    font-weight: bold;
+    color: yellow;
+}
+
+input[type="submit"]{
+    background-color: rgb(4, 58, 4);
+    border: 1px solid greenyellow;
+}
+
+input[type="button"]{
+    background-color: rgb(55, 2, 2);
+    border: 1px solid rgb(255, 47, 47);
+}
+
+input[type="file"]{
+    background-color: rgb(7, 80, 56);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(60, 60, 60);
+    font-weight: bold;
+    color: yellow;
+}
