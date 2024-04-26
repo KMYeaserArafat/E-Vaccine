@@ -17,8 +17,13 @@ if($DeleteData==TRUE){
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="icon" href="../Documents/vaccinated.png"/>
+        <title>Delete Confirmation</title>
+        <link rel="stylesheet" href="../Design/DeleteSupplyReport2.css">
+    </head>
     <body>
-        <h3><?php  echo($deleteMessage);  ?></h3>
-        <h3><a href="DeleteSupplyReport_View.php">Back Page..</h3>
+        <h3 id="message"><?php  echo($deleteMessage);  ?></h3>
+        <h3><a id="confirmationLink" href="DeleteSupplyReport_View.php">Back Page..</h3>
     </body>
 </html>
