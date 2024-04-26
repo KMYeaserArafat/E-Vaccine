@@ -14,17 +14,29 @@ $vn = $_GET['vn'];
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="icon" href="../Documents/vaccinated.png"/>
+        <title>Update Data</title>
+        <link rel="stylesheet" href="../Design/UpdateSupplyReport2.css">
+    </head>
     <body>
+        <div id="headDiv">
+            <img id="logo" src="../Documents//VaccineLogo.png" alt="VaccineLogo" height="64px" width="64px">
+            <h1 id="title">E-Vaccine</h1>
+        </div>
+
+        <a href="../view/UpdateSupplyReport.php" id="backbtn" ><img src="../Documents/backbtn.png" width="15" height="15">   Back to Update Page</a>
+
         <form method="POST" action="">
             <fieldset>
                 <legend>Update Data : </legend>
                 <table>
                     <tr>
-                        <td>Slip No : </td>
+                        <td class="label">Slip No : </td>
                         <td><input type="text" name="slipNo" value="<?php echo($sn); ?>"></td>
                     </tr>
                     <tr>
-                        <td>Vaccine Type : </td>
+                        <td class="label">Vaccine Type : </td>
                         <td><select name="vaccineType">
                             <option value="<?php echo($vt); ?>"><?php echo($vt); ?></option>
                             <option value="Import">Import</option>
@@ -33,12 +45,12 @@ $vn = $_GET['vn'];
                     </tr>
 
                     <tr>
-                        <td>Supplier Comapany Name : </td>
+                        <td class="label">Supplier Comapany Name : </td>
                         <td><input type="text" name="suppliercompanyname" value="<?php echo($scn); ?>"></td>
                     </tr>
 
                     <tr>
-                        <td>Vat No : </td>
+                        <td class="label">Vat No : </td>
                         <td><input type="text" name="vatno" value="<?php echo($vn);  ?>"></td>
                     </tr>
 
