@@ -19,8 +19,13 @@ if($result1==TRUE){
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="icon" href="../Documents/vaccinated.png"/>
+        <title>Delete Confirmation Page</title>
+        <link rel="stylesheet" href="../Design/DeleteVaccine2.css">
+    </head>
     <body>
-        <h2><?php echo($message); ?></h2>
-        <h3><a href="DeleteVaccineInformation.php">Back</h3>
+        <h2 id="message"><?php echo($message); ?></h2>
+        <h3><a id="confirmationLink" href="DeleteVaccineInformation.php">Back</h3>
     </body>
 </html>

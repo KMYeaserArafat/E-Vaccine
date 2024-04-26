@@ -31,23 +31,23 @@ include '../controller/LoginController.php';
                 <div class="dropdown1">
                     <button class="dropbtn1">Vaccine</button>
                     <div class="dropdown-content1">
-                    <a href="#">Show Vaccine</a>
-                    <a href="#">Add Vaccine</a>
-                    <a href="#">Update Vaccine</a>
-                    <a href="#">Delete Vaccine</a>
+                    <a href="./SearchVaccineInformation.php">Show Vaccine</a>
+                    <a href="./VaccineRegistration.php">Add Vaccine</a>
+                    <a href="./UpdateVaccineInformation1.php">Update Vaccine</a>
+                    <a href="./DeleteVaccineInformation.php">Delete Vaccine</a>
                     </div>
                 </div>
 
                 <div class="dropdown2">
                     <button class="dropbtn2">Supply Report</button>
                     <div class="dropdown-content2">
-                    <a href="#">Show Supply Report</a>
-                    <a href="#">Add Report</a>
-                    <a href="#">Update Report</a>
-                    <a href="#">Delete Report</a>
+                    <a href="">Show Supply Report</a>
+                    <a href="./AddSupplyReport.php">Add Report</a>
+                    <a href="./UpdateSupplyReport.php">Update Report</a>
+                    <a href="./DeleteSupplyReport_View.php">Delete Report</a>
                     </div>
                 </div>
-                <a href="./loginPage.php"><?php session_destroy(); ?>Logout</a>
+                <a href="./loginPage.php"><?php //session_destroy(); ?>Logout</a>
             </div>
 
 

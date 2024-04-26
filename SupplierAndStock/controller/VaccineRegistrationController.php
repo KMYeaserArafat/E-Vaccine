@@ -5,7 +5,8 @@ include '../DataBase/myDB.php';
 
 $vaccineNameErr = $vaccineCodeErr=$manufactureByErr= $supplyDateErr = $productionDateErr = $expiryDateErr = $quantityErr = $rateErr = $hasErr = "";
 $vaccineName = $vaccineCode = $manufactureBy = $supplyDate = $productionDate= $expiryDate = $quantity = $rate = $totalAmmount = "";
-
+$vaccineAddedMessage ="";
+$ammountErr = "";
 
 if(isset($_REQUEST['reset'])){
     $vaccineNameErr = $vaccineName ="";
@@ -81,26 +82,30 @@ if(isset($_REQUEST['addVaccine'])){
     }
 
     //Total Ammount, 
-     $totalAmmount = $quantity * $rate;
+    if(empty($_REQUEST["quantity"]) && empty($_REQUEST["rate"])){
+         $ammountErr = "Invalid quantity or rate!";
+    }else{
+        $totalAmmount = $_REQUEST['quantity']* $_REQUEST['rate'];
+    }
+     
 
 
      // Data-Base Work, 
      if($hasErr != 1){
         $myDB = new Model();
         $connObj = $myDB->OpenConn();
-        $result = $myDB->VaccineRegistration($connObj,"vaccineregistration",$vaccineName,$vaccineCode,$manufactureBy,$supplyDate,$productionDate,
+        if($vaccineName!="" && $vaccineCode!="" && $manufactureBy!="" && $supplyDate!="" && $productionDate!="" && $expiryDate!="" && $quantity!="" && $rate!=""){
+            $result = $myDB->VaccineRegistration($connObj,"vaccineregistration",$vaccineName,$vaccineCode,$manufactureBy,$supplyDate,$productionDate,
         $expiryDate,$quantity,$rate,$totalAmmount);
 
-        if($result==TRUE){
-            echo("Add New Vaccine");
+        if($result==true){
+            $vaccineAddedMessage ="Vaccine is added";
         }else{
-            echo("Failed to add vaccine");
+            $vaccineAddedMessage ="Vaccine is not added!";
         }
+        }
+    
      }
-
-
-
-
 
 }
 
