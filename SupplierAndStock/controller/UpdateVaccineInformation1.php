@@ -75,15 +75,14 @@ if(isset($_REQUEST['update'])){
     //Vaccine-Code, 
     $vaccineCode = $_REQUEST['vaccineCode'];
 
-    
     $result2 = $myDB->UpdateVaccineInformation($conObj,"vaccineregistration",$vaccineName,$vaccineCode,$manufactureBy,$supplyDate,$productionDate,$expiryDate);
 
     if($result2==TRUE){
         $message = "Updated!";
         header("Location:../view/UpdateVaccineInformation1.php");
     }else{
-        $message = "Not Updated..!";
-    }
+       $message = "Not Updated..!";
+}
 
 
 }

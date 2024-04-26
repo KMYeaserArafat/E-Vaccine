@@ -19,5 +19,6 @@ include '../controller/UpdateInformation.php';
             </fieldset>
 
         </form>
+
     </body>
 </html>
