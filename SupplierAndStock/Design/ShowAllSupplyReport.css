@@ -76,7 +76,7 @@ td{
    margin: 20px;
 }
 
-#searchLabel1{
+#searchLabel1,#searchLabel2{
     font-size: 18px;
     color: rgb(15, 229, 237);
     margin-left: 30%;
@@ -92,11 +92,29 @@ input[type="text"]{
     
 }
 
-#searchBtn1{
+#searchBtn1,button{
     padding: 5px;
     background-color: rgb(130, 12, 193);
     border-radius: 5px;
     color: rgb(42, 255, 255);
     font-weight: bold;
     margin:px;
+}
+
+#ajaxBackGround{
+    margin-top: 20px;
+    background-color: rgba(35, 6, 61, 0.633);
+    padding: 20px;
+}
+
+#label{
+    text-align: center;
+    color: rgb(207, 184, 228);
+}
+
+#display{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(58, 4, 4);
+    font-weight: bold;
 }
