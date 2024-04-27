@@ -41,7 +41,7 @@ include '../controller/LoginController.php';
                 <div class="dropdown2">
                     <button class="dropbtn2">Supply Report</button>
                     <div class="dropdown-content2">
-                    <a href="">Show Supply Report</a>
+                    <a href="./ShowAllSupplyReport.php">Show Supply Report</a>
                     <a href="./AddSupplyReport.php">Add Report</a>
                     <a href="./UpdateSupplyReport.php">Update Report</a>
                     <a href="./DeleteSupplyReport_View.php">Delete Report</a>

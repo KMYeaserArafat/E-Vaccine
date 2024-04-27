@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: bisque;
+    /* background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342)); */
+}
+
+
+
+#headDiv{
+    display: flex;
+    padding: 20px;
+    box-shadow: 6px 5px 30px red;
+    background-color: rgb(6, 103, 4);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+#logo{
+    width: 64px;
+    height: 64px;
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+#backbtn{
+    background-color: rgb(59, 3, 3);
+    color: yellow;
+    font: 16px;
+    font-weight: bold;
+    padding:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgb(243, 0, 0);
+}
+
+form{
+    background-color: rgb(52, 6, 80);
+    padding: 20px;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+table{
+    margin-left: 5%;
+    background-color: rgba(9, 75, 123, 0.436);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 6px 5px 30px rgb(0, 229, 255);
+}
+
+th{
+    background-color: rgba(0, 0, 40, 0.704);
+    color: aqua;
+    padding:20px;
+    text-align: center;
+}
+
+td{
+    background-color: rgba(2, 112, 112, 0.512);
+    text-align: center;
+    color: aquamarine;
+    padding: 15px;
+}
+
+#searchBoxDiv1{
+   background-color: rgba(240, 248, 255, 0.364);
+   padding: 20px;
+   margin: 20px;
+}
+
+#searchLabel1{
+    font-size: 18px;
+    color: rgb(15, 229, 237);
+    margin-left: 30%;
+    text-shadow: 6px 5px 30px rgb(3, 33, 37);
+}
+
+input[type="text"]{
+    padding: 5px;
+    background-color: rgb(157, 163, 168);
+    border-radius: 20px;
+    border: 2px solid rgb(3, 221, 255);
+    text-align: center;
+    
+}
+
+#searchBtn1{
+    padding: 5px;
+    background-color: rgb(130, 12, 193);
+    border-radius: 5px;
+    color: rgb(42, 255, 255);
+    font-weight: bold;
+    margin:px;
+}
