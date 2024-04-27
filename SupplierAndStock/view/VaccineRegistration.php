@@ -29,50 +29,50 @@ include '../controller/VaccineRegistrationController.php';
                 <table>
                     <tr>
                         <td>Vaccine Name : </td>
-                        <td><input type="text" name="vaccineName"></td>
+                        <td><input type="text" name="vaccineName" id="vaccineName"></td>
                         <td class="message"><?php echo($vaccineNameErr); echo($vaccineName); ?></td>
                         
                     </tr>
 
                     <tr>
                         <td>Vaccine Code : </td>
-                        <td><input type="text" name="vaccineCode"></td>
+                        <td><input type="text" name="vaccineCode" id="vaccineCode"></td>
                         <td class="message"><?php echo($vaccineCodeErr); echo($vaccineCode); ?></td>
                     </tr>
 
                     <tr>
                         <td>Manufacture By :</td>
-                        <td><input type="text" name="manufactureBy"></td>
+                        <td><input type="text" name="manufactureBy" id="manufactureBy"></td>
                         <td class="message"><?php echo($manufactureByErr); echo($manufactureBy); ?></td>
                     </tr>
 
                     <tr>
                         <td>Supply Date : </td>
-                        <td><input type="date" name="supplyDate"></td>
+                        <td><input type="date" name="supplyDate" id="supplyDate"></td>
                         <td class="message"><?php echo($supplyDateErr); echo($supplyDate); ?></td>
                     </tr>
 
                     <tr>
                         <td>Production Date : </td>
-                        <td><input type="date" name="productionDate"></td>
+                        <td><input type="date" name="productionDate" id="productionDate"></td>
                         <td class="message"><?php echo($productionDateErr); echo($productionDate); ?></td>
                     </tr>
 
                     <tr>
                         <td>Expiry Date : </td>
-                        <td><input type="date" name="expiryDate"></td>
+                        <td><input type="date" name="expiryDate" id="expiryDate"></td>
                         <td class="message"><?php echo($expiryDateErr); echo($expiryDate); ?></td>
                     </tr>
 
                     <tr>
                         <td>Quantity : </td>
-                        <td><input type="number" name="quantity" value="0"></td>
+                        <td><input type="number" name="quantity" value="0" id="quantity"></td>
                         <td class="message"><?php echo($quantityErr); echo($quantity); ?></td>
                     </tr>
 
                     <tr>
                         <td>Rate : </td>
-                        <td><input type="text" name="rate" value="0.00"> (BDT.)</td>
+                        <td><input type="text" name="rate" value="0.00" id="rate"> (BDT.)</td>
                         <td class="message"><?php echo($rateErr); echo($rate); ?></td>
                     </tr>
                     

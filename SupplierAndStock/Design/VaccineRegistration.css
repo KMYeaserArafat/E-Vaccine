@@ -99,3 +99,8 @@ input[type="submit"]{
     font-weight: bold;
     border-radius: 20px;
 }
+
+#message1{
+    color: red;
+    text-align: center;
+}
