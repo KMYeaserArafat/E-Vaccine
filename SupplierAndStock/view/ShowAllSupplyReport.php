@@ -42,8 +42,8 @@ include '../controller/ShowAllSupplyReport_Controller.php';
             <div id="ajaxBackGround">
                 <h2 id="label">Search Report Data Using Ajax : </h2>
                 <p id="searchLabel2">Search Data Using Slip No : 
-                    <input type="text" name="searchBox2" id="searchBox2">
-                    <button onclick="LoadData()">Search</button>
+                    <input type="text" name="searchBox2" id="searchBox2" onkeyup="LoadData()">
+                    <!-- <button onclick="LoadData()">Search</button> -->
                     <p id="display">-</p>
                 </p>
             </div>    

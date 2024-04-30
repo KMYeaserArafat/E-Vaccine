@@ -32,6 +32,6 @@ function LoadData(){
         }
     };
 
-    xhr.open("GET","http://localhost/WTG/E-Vaccine/SupplierAndStock/DataBase/Dataset.php",true);
+    xhr.open("GET","http://localhost/WTG/E-Vaccine/SupplierAndStock/controller/ajaxData.php",true);
     xhr.send();
 }
