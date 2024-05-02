@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+#headerDiv{
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 2px solid red;
+   
+}
+
+#dashboard{
+    color: green;
+}
+
+.menubar{
+    float: left;
+    background-color: rgb(4, 1, 45);
+    width: 20% auto;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+    border-right: 2px solid rgb(247, 4, 12);
+}
+
+button{
+   padding: 10px;
+   width: 100%;
+   color: yellow;
+   background-color: rgb(3, 50, 3);
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+
+.viewDiv{
+    float: left;
+    background-color: rgb(8, 225, 113);
+    width: 80.50%;
+    height: 100vh;
+    padding: 50px;
+}
