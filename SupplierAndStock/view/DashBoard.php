@@ -47,7 +47,7 @@ include '../controller/LoginController.php';
                     <a href="./DeleteSupplyReport_View.php">Delete Report</a>
                     </div>
                 </div>
-                <a href="./loginPage.php"><?php //session_destroy(); ?>Logout</a>
+                <a href="../controller/logoutController.php"><?php  ?>Logout</a>
             </div>
 
 
