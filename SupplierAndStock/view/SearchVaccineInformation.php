@@ -25,7 +25,7 @@ include '../controller/SearchVaccineInformation.php';
             <fieldset>
                 <legend><h1>Show All Vacction Information :</h1></legend>
                 <div id="searchDiv">
-                        <p id="searchTitle">Search Vaccine by VaccineCode :
+                        <p id="searchTitle">Search Vaccine by Vaccine Name :
                         <input type="text" name="SearchVaccineData">
                         <input type="submit" name="searchVaccine" value="Search" id="searchbtn">
                         <input type="submit" name="reloadbtn" id="reloadbtn" value="Reload" onclick="ShowVaccineInformation($showResult);"></p>
