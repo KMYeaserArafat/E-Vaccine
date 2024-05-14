@@ -1,0 +1,160 @@
+body {
+    background-image: url("../../Documents/variousvaccine.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: medium;
+    position: relative; /* add this line */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* add this line */
+}
+
+/* add the following CSS rules */
+table thead {
+    background-color: #f2f2f2;
+}
+
+table thead th {
+    padding: 10px;
+    color: #444;
+    font-weight: bold;
+}
+
+table tbody td {
+    padding: 10px 0;
+    color: #444;
+    border-right: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
+}
+
+input[type="text"], input[type="number"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0c61d1;
+}
+
+button[type="button"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button[type="button"]:hover {
+    background-color: #07d900;
+}
+
+a button[type="button"] {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+#headDiv {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.5em;
+    color: #444;
+}
+
+#backbtn {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007bff;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+#backbtn img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#searchDiv {
+    margin-bottom: 20px;
+}
+
+#searchTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#message {
+    font-size: 0.9em;
+    color: red;
+    margin-top: 5px;
+}

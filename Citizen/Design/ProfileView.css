@@ -1,0 +1,141 @@
+
+
+body{
+  margin: 0;
+  background-image: linear-gradient(to left, rgba(97, 97, 11, 0.655),rgb(157, 109, 117),rgba(145, 15, 15, 0.342));
+  position: relative;
+}
+
+
+.headDiv{
+  display: flex;
+  padding: 20px;
+  box-shadow: 6px 5px 30px red;
+  background-color: rgb(6, 103, 4);
+}
+
+.title{
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.logo{
+  width: 64px;
+  height: 64px;
+  margin-top: 15px;
+  margin-left: 40%;
+}
+
+#userProfile{
+  text-align: center;
+  margin-top: 2%;
+  color: #0cf0a0;
+  text-shadow: 5px 5px 10px black;
+}
+
+.userProfilePhoto{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 47%;
+}
+
+
+.DashBoard{
+  margin : 30px;
+  display: flex;
+  background-image: linear-gradient(to left, rgba(9, 9, 9, 0.915), rgb(5, 102, 86));;
+  padding: 10px;
+  width : 200px;
+  border-radius: 30px;
+  margin-left: 43%;
+}
+
+.DashBoard:hover{
+  box-shadow: 0px 0px 20px greenyellow;
+  background-image: linear-gradient(to left, rgba(69, 68, 68, 0.915), rgb(1, 41, 33));;
+}
+
+.dashBoardLogo{
+  margin-left: 20px;
+}
+
+.dashBoardLink{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(145, 199, 198);
+  margin-left: 10px;
+}
+
+
+
+.footerDiv{
+  /* float: right; */
+  background-color: rgb(3, 30, 3);
+  padding: 15px;
+  margin-top: 300px;
+  box-shadow: 40px 5px 50px rgb(3, 30, 3);
+}
+
+#footerPera{
+position: relative;
+text-align: center;
+color: gold;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 5px 5px 20px burlywood;
+}
+
+
+/* table, td, th {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 100px;
+  font-size: 13px;
+  position: absolute;
+} */
+
+.background{
+position: relative;
+background-color: rgba(20, 12, 1, 0.545);
+overflow:auto;
+padding: 20px;
+height: 300px;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  position: absolute;
+}
+
+
+th {
+  height: 70px;
+  color: aqua;
+  padding: 2px;
+  text-align: center;
+}
+
+td{
+  padding: 2px;
+  text-align: center;
+  background-color: rgba(78, 78, 78, 0.534);
+  color: antiquewhite;
+}
+
+a{
+  text-decoration: none;
+  color:red;
+}
+
+a:hover{
+  color:#0cf0a0;
+}

@@ -1,0 +1,103 @@
+body {
+    background-image: url("../../Documents/document.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  th {
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10px;
+    color: #444;
+  }
+  
+  td {
+    padding: 10px 0;
+    color: #444;
+  }
+  
+  input[type="text"], input[type="number"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+      background-color: #0c61d1;
+  }
+  
+  button[type="button"] {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+  }
+  
+  button[type="button"]:hover {
+      background-color: #07d900;
+  }
+  
+  a button[type="button"] {
+      text-decoration: none;
+  }
+  .error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
